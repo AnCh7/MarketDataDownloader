@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDD.WinForms", "MDD.WinForms\MDD.WinForms.csproj", "{3B5EADC8-2BE8-44F7-A546-812318932F4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDD.Library", "MDD.Library\MDD.Library.csproj", "{EFB9A3A0-8104-45F6-9800-76FBF84EACC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Datafeeds", "Datafeeds", "{99290BEB-5F22-4ED9-AD3A-85E617BB7311}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8B4E14D9-C1A4-4740-B914-6A55319C9BD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDD.DataFeed.Fidelity", "Datafeeds\MDD.DataFeed.Fidelity\MDD.DataFeed.Fidelity.csproj", "{343E9749-4C67-4991-89C2-67E362686684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDD.DataFeed.IQFeed", "Datafeeds\MDD.DataFeed.IQFeed\MDD.DataFeed.IQFeed.csproj", "{23D867A9-EAD8-4A4C-AD1B-C23883EB3FD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDD.UnitTests", "Tests\MDD.UnitTests\MDD.UnitTests.csproj", "{8102C74F-5B3B-4D85-8913-F607C8EEF39A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6131DD4A-03A9-42E2-B05D-B20D843FACEA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B5EADC8-2BE8-44F7-A546-812318932F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5EADC8-2BE8-44F7-A546-812318932F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5EADC8-2BE8-44F7-A546-812318932F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5EADC8-2BE8-44F7-A546-812318932F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB9A3A0-8104-45F6-9800-76FBF84EACC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB9A3A0-8104-45F6-9800-76FBF84EACC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB9A3A0-8104-45F6-9800-76FBF84EACC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB9A3A0-8104-45F6-9800-76FBF84EACC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343E9749-4C67-4991-89C2-67E362686684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343E9749-4C67-4991-89C2-67E362686684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343E9749-4C67-4991-89C2-67E362686684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343E9749-4C67-4991-89C2-67E362686684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D867A9-EAD8-4A4C-AD1B-C23883EB3FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D867A9-EAD8-4A4C-AD1B-C23883EB3FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D867A9-EAD8-4A4C-AD1B-C23883EB3FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D867A9-EAD8-4A4C-AD1B-C23883EB3FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8102C74F-5B3B-4D85-8913-F607C8EEF39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8102C74F-5B3B-4D85-8913-F607C8EEF39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8102C74F-5B3B-4D85-8913-F607C8EEF39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8102C74F-5B3B-4D85-8913-F607C8EEF39A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{343E9749-4C67-4991-89C2-67E362686684} = {99290BEB-5F22-4ED9-AD3A-85E617BB7311}
+		{23D867A9-EAD8-4A4C-AD1B-C23883EB3FD4} = {99290BEB-5F22-4ED9-AD3A-85E617BB7311}
+		{8102C74F-5B3B-4D85-8913-F607C8EEF39A} = {8B4E14D9-C1A4-4740-B914-6A55319C9BD2}
+	EndGlobalSection
+EndGlobal
