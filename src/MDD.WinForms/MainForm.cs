@@ -103,9 +103,6 @@ namespace MDD.WinForms
 					dtpEndDateTime.Enabled = false;
 					break;
 			}
-
-			
-			
 		}
 
 		private void cbSource_SelectedIndexChanged(object sender, EventArgs e)
