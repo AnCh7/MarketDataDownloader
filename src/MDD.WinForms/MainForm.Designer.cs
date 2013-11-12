@@ -592,7 +592,7 @@
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.rtbLog);
 			this.Name = "MainForm";
-			this.Text = "MarketDataDownloader 3.0.0.0";
+			this.Text = "MarketDataDownloader 3.0.0.1";
 			this.Load += new System.EventHandler(this.MainForm_Load);
 			this.groupBox2.ResumeLayout(false);
 			this.groupBox2.PerformLayout();
